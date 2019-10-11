@@ -229,3 +229,5 @@ This shall fix the problem. :D
 <a href='https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration'>Git Configuration</a>
 
 [Pre-commit hook](https://ljvmiranda921.github.io/notebook/2018/06/21/precommits-using-black-and-flake8/)
+
+[flake8 config](http://flake8.pycqa.org/en/2.6.0/config.html)
