@@ -205,7 +205,20 @@ repos:
  This will automatically search through hooks defined in the `.yaml` in `.git/`.
  
  Then you are ready to go. When you run a normal git commit, the pre-commit hooks will do the check first. If your code doesn't meet the quality, it will be rejected.
- 
+
+\[Update 20191011]
+You might run into an issue with max length per line. And that's because the different default setting by *black* and *flake8*. 
+
+Black allows a max length of 88 chars per line while flake8 is using old school 79 chars.
+
+The fix is adjust either to make them match. I choose to adjust flake8 which could be done by adding a new file  `~/.config/flake8` with content: 
+
+```
+[flake8]
+max-line-length = 88
+```
+
+This shall fix the problem. :D
  
 
 #### Refs:
