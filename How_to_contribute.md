@@ -183,7 +183,7 @@ $ pip install pre-commit
 
 Then define what hooks you want to add before commit in `.pre-commit-config.yaml`.
 
-For *black* and *flake8*, in `.pre-commit-config.yaml` we will have:
+To use *black* and *flake8*, in `.pre-commit-config.yaml` we will have:
 
 ```
 repos:
@@ -197,6 +197,16 @@ repos:
     hooks:
     - id: flake8
 ```
+ 
+ Finally, we can install all hooks by running:
+ 
+ ```bash
+ $ pre-commit install
+ ```
+ This will automatically search through hooks defined in the `.yaml` in `.git/`.
+ 
+ Then you are ready to go. When you run a normal git commit, the pre-commit hooks will do the check first. If your code doesn't meet the quality, it will be rejected.
+ 
  
 
 #### Refs:
