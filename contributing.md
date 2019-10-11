@@ -126,8 +126,8 @@ Here is how to make things easier and rules to follow:
 (Ref: [Suggestions above are directly C&P from here](https://chris.beams.io/posts/git-commit/))
 
 
-### Default editor
-To be able to write long descriptive commit messages, try to use a default editor instead of `commit -m`.
+### Git default editor
+To be able to write long descriptive commit messages, try to use `git commit` with a default editor instead of `commit -m`.
 
 setting:
 
