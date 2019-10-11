@@ -206,7 +206,7 @@ repos:
  
  Then you are ready to go. When you run a normal git commit, the pre-commit hooks will do the check first. If your code doesn't meet the quality, it will be rejected.
 
-\[Update 20191011]
+#### \[Update 20191011]
 You might run into an issue with max length per line. And that's because the different default setting by *black* and *flake8*. 
 
 Black allows a max length of 88 chars per line while flake8 is using old school 79 chars.
@@ -219,6 +219,10 @@ max-line-length = 88
 ```
 
 This shall fix the problem. :D
+
+Also, set up the IDE with hard wrap of max length could help you while developing.
+
+In PyCharm, the setting is `Preferences > Code Style > Hard wrap at`.
  
 
 #### Refs:
