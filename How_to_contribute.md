@@ -7,7 +7,6 @@ Contributing rules are important! This will make sure the repository will be con
 - Commit message
 - Merge checklist
 - Style guide 
-- reporting bugs
 
 ## Versioning
 I'd like to talk about versioning first because this will be used in flow control.
