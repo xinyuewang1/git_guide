@@ -4,6 +4,6 @@ This is a personal learning notes during trying to master project management tas
 
 Enjoy. :)
 
-[How to Contribute](How_to_contricute.md)
+[How to Contribute](./How_to_contribute.md)
 
 Most knowledge here is directed by <a href='https://github.com/micaleel'>@micaleel</a>. Thanks a lot!
