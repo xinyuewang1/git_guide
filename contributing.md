@@ -224,6 +224,9 @@ Also, set up the IDE with hard wrap of max length could help you while developin
 
 In PyCharm, the setting is `Preferences > Code Style > Hard wrap at`.
  
+#### \[Update 20191017]
+Another issue I ran into while using this pre-commit hook is inconsistency of space after ':' between *black* and *flake8*. You may find this is an [open issue](https://github.com/PyCQA/pycodestyle/issues/373) that *flake8* is trying to fix.
+Before that update, you need to add `# noqa: E203` inline to silent this check.
 
 #### Refs:
 <a href='https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow'>GitFlow</a>
