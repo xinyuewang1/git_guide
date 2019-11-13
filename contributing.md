@@ -140,14 +140,19 @@ To provide a good guideline of commit messages, a pre-set template will make the
 
 A good template (~/.gitmessage.txt) example:
 
-```txt
-Subject line (try to keep under 50 characters)
+\[Update 20191113] Modify a little bit to fit better usage.
 
-Multi-line description of commit,
-feel free to be detailed.
+```txt
+# Subject line (try to keep under 50 characters)
+# If applied, this commit will...
+
+
+# what & why, if needed
+
 
 [Ticket: X]
 ```
+
 Set template:
 
 ```bash
